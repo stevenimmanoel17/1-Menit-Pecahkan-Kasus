@@ -5,7 +5,7 @@ import time
 # Variabel status untuk mendeteksi batas waktu
 waktu_habis = False
 
-def ketik(teks, jeda=0.03):
+def ketik(teks, jeda=0.08):
     """Mencetak teks huruf per huruf dengan efek mesin tik."""
     for karakter in teks:
         sys.stdout.write(karakter)
